@@ -1,4 +1,4 @@
-/* Reset some default browser styles */
+/* Reset basic styles */
 * {
     margin: 0;
     padding: 0;
@@ -6,15 +6,14 @@
   }
   
   body {
-    font-family: 'Arial', sans-serif;
-    color: #fff;
-    background-color: #000;
-    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
   }
   
   nav {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
     text-align: center;
   }
   
@@ -23,12 +22,12 @@
   }
   
   nav ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
   }
   
   nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
     font-weight: bold;
   }
@@ -36,13 +35,13 @@
   #home {
     position: relative;
     height: 100vh;
-    background: #000;
+    background-color: black;
   }
   
-  #hero-video {
+  .hero-placeholder {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    background-color: black;
   }
   
   .overlay {
@@ -55,7 +54,6 @@
   
   .overlay h1 {
     font-size: 4rem;
-    margin-bottom: 10px;
   }
   
   .overlay p {
@@ -67,24 +65,8 @@
     text-align: center;
   }
   
-  #gallery {
-    padding: 50px;
-    background: #111;
-  }
-  
-  .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 15px;
-  }
-  
-  .gallery-grid img {
-    width: 100%;
-    height: auto;
-  }
-  
   footer {
+    background-color: rgba(0, 0, 0, 0.9);
     padding: 20px;
-    background: rgba(0, 0, 0, 0.9);
     text-align: center;
   }
